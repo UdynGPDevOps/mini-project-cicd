@@ -1,6 +1,6 @@
 # mini-project-cicd
 
-
+CI/CD pipeline demo using Jenkins and Docker
 
 ## Getting started
 
