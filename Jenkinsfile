@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "flask-devops-app"
-        DOCKER_REGISTRY = "https://udayandevops.jfrog.io/artifactory/docker-local-docker-local/" // 🔁 Replace this
+        DOCKER_REGISTRY = "udayandevops.jfrog.io/artifactory/docker-local-docker-local/"
     }
 
     stages {
