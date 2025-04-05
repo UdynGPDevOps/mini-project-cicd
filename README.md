@@ -2,7 +2,7 @@
 
 This mini project demonstrates a complete CI/CD pipeline that automatically builds, tests, and deploys a simple Flask web application using modern DevOps tools.
 
-It is part of my DevOps internship at **Medtronic Engineering and Innovation Centre**, under the Shared Services team.
+It is part of my DevOps internship at **Medtronic Engineering and Innovation Centre**, under the Shared Services/DevOps team.
 
 ---
 
@@ -142,7 +142,7 @@ https://your-subdomain.jfrog.io/artifactory/docker-local
 
 ## 🙌 Acknowledgements
 
-Special thanks to the team at **Medtronic Engineering and Innovation Centre** for the guidance and opportunity to explore DevOps tools in real-world scenarios.
+Special thanks to Podili Sravan Kumar, Manikanta Nandyala and my manager Kesari Suresh from the I&O team at **Medtronic Engineering and Innovation Centre** for their invaluable guidance and for providing the opportunity to explore DevOps tools in real-world scenarios.
 
 ---
 
