@@ -47,7 +47,7 @@ def home():
                     <li>JFrog Artifactory for image storage</li>
                     <li>Flask as the sample web application</li>
                 </ul>
-                <p>💡 This project is part of my DevOps internship at Medtronic.</p>
+                <p>💡 This project is part of my DevOps internship at Medtronic</p>
                 <footer>Made by Udayan Gupta</footer>
             </div>
         </body>
