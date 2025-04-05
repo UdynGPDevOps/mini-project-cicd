@@ -74,7 +74,7 @@ The homepage (`/`) displays a styled HTML page summarizing:
 The image is tagged as `flask-devops-app:latest` and pushed to:
 
 ```
-https://your-subdomain.jfrog.io/artifactory/docker-local
+https://udayandevops.jfrog.io/artifactory/docker-local-docker-local
 ```
 
 ---
