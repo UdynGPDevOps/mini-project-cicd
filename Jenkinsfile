@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "flask-devops-app"
-        DOCKER_REPO = "docker-local"
+        DOCKER_REPO = "docker-local-docker-local"
         DOCKER_REGISTRY = "udayandevops.jfrog.io"
         FULL_IMAGE_NAME = "${DOCKER_REGISTRY}/${DOCKER_REPO}/${IMAGE_NAME}"
     }
