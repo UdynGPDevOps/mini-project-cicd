@@ -3,7 +3,9 @@ pipeline {
 
     environment {
         IMAGE_NAME = "flask-devops-app"
-        DOCKER_REGISTRY = "udayandevops.jfrog.io/artifactory/docker-local-docker-local/"
+        DOCKER_REPO = "docker-local"
+        DOCKER_REGISTRY = "udayandevops.jfrog.io"
+        FULL_IMAGE_NAME = "${DOCKER_REGISTRY}/${DOCKER_REPO}/${IMAGE_NAME}"
     }
 
     stages {
@@ -23,8 +25,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("${IMAGE_NAME}", "app")
-                    echo "✅ Docker image '${IMAGE_NAME}' built successfully."
+                    docker.build("${FULL_IMAGE_NAME}", "app")
+                    echo "✅ Docker image '${FULL_IMAGE_NAME}' built successfully."
                 }
             }
         }
@@ -33,7 +35,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry("https://${DOCKER_REGISTRY}", 'jfrog-creds-id') {
-                        docker.image("${IMAGE_NAME}").push("latest")
+                        docker.image("${FULL_IMAGE_NAME}").push("latest")
                         echo "✅ Docker image pushed to JFrog!"
                     }
                 }
