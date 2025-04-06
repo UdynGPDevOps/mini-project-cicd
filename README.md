@@ -142,7 +142,7 @@ https://udayandevops.jfrog.io/artifactory/docker-local-docker-local
 
 ## 🙌 Acknowledgements
 
-Special thanks to Podili Sravan Kumar, Manikanta Nandyala, Aravind Ramini and my manager Kesari Suresh from the I&O team at **Medtronic Engineering and Innovation Centre** for their invaluable guidance and for providing the opportunity to explore DevOps tools in real-world scenarios.
+Special thanks to **Podili Sravan Kumar**, **Manikanta Nandyala**, **Aravind Ramini** and my manager **Kesari Suresh** from the I&O team at **Medtronic Engineering and Innovation Centre** for their invaluable guidance and support throughout this DevOps internship project.
 
 ---
 
